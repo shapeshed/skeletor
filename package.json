@@ -1,0 +1,39 @@
+{
+  "name":"skeletor",
+  "description":"An opinionated skeleton for npm modules",
+  "keywords":[
+    "npm",
+    "skeleton",
+    "modules"
+  ],
+  "main":"./lib/skeletor",
+  "author":"George Ornbo <george@shapeshed.com> (http://shapeshed.com)",
+  "version":"0.0.1",
+  "engines":{
+    "node":">= 0.5.0 < 0.7.0"
+  },
+  "repository":{
+  "type":"git",
+  "url":"https://github.com/shapeshed/skeletor.git"
+  },
+  "devDependencies":{
+  "mocha":">=0.14.1",
+  "rimraf":"2.0.1"
+  },
+  "bin":"./bin/skeletor.js",
+  "bugs":{
+    "url":"https://github.com/shapeshed/skeletor/issues"
+  },
+  "dependencies":{
+    "ejs":"0.7.1"
+  },
+  "scripts":{
+    "test":"make test"
+  },
+  "licenses":[
+  {
+    "type":"MIT",
+    "url":"https://github.com/shapeshed/trafficjam/raw/skeletor/LICENSE"
+  }
+  ]
+}

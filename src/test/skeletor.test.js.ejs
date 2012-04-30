@@ -1,0 +1,9 @@
+var assert = require('assert')
+, <%= name %> = require('../lib/<%= name %>');
+
+describe('Setting up Mocha', function(){
+  it('should run a simple test', function(done){
+    assert.strictEqual(true, true);
+    done();
+  })
+})  
