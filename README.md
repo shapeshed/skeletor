@@ -27,24 +27,24 @@ Skeltor will generate the following layout
 
 Don't like the layout? Create your own fork and change to your liking.
 
-# Installation
+## Installation
 
 ``` bash
 npm -g install skeletor
 ```
 
-# Default values
+## Default values
 
 Skeletor will try and read defaults to populate the package.json file from your `.npmrc` and `.gitconfig` files. 
 
-.gitconfig
+### .gitconfig
 
 ``` 
 [github]
     user = shapeshed
 ```
 
-.npmrc
+### .npmrc
 
 ``` 
 init.author.name = George Ornbo
@@ -52,7 +52,7 @@ init.author.url = http://shapeshed.com
 init.author.email = george@shapeshed.com
 ```
 
-# Usage
+## Usage
 
 ``` bash
 skeletor [module_name]
