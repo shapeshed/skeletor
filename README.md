@@ -2,13 +2,14 @@
 
 [![Build Status](https://secure.travis-ci.org/shapeshed/skeletor.png)](http://travis-ci.org/shapeshed/skeletor)
 
-Skeletor is a cli tool for generating an opitionated blueprint for a Node.js module. It assumes you are using the following:
+Skeletor is a cli tool for generating an opinionated blueprint for a Node.js module. It assumes you are using the following:
 
 * [Mocha][1] for testing
 * [GitHub][2] for source control
 * [Travis][3] for CI
 
 Skeltor will generate the following layout
+
   .
   ├── bin
   │   └── module_name.js
@@ -26,7 +27,7 @@ Don't like the layout? Create your own fork and change to your liking.
 
 # Installation
 
-    npm -g install skeletor
+  npm -g install skeletor
 
 # Default values
 
