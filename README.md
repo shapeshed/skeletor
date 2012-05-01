@@ -1,6 +1,7 @@
 # Skeletor
 
-[![Build Status](https://secure.travis-ci.org/shapeshed/skeletor.png)](http://travis-ci.org/shapeshed/skeletor)
+![Skeletor](http://upload.wikimedia.org/wikipedia/en/8/8a/Skeletor-spoo.jpg)
+
 
 Skeletor is a cli tool for generating an opinionated blueprint for a Node.js module. It assumes you are using the following:
 
@@ -9,6 +10,10 @@ Skeletor is a cli tool for generating an opinionated blueprint for a Node.js mod
 * [Travis][3] for CI
 
 Skeltor will generate the following layout
+
+``` bash
+skeletor [module_name]
+```
 
 ```
 .
@@ -58,7 +63,7 @@ init.author.email = george@shapeshed.com
 skeletor [module_name]
 cd [module_name]
 npm install
-make test
+npm test
 ```
 
 Then you can start hacking on your module, create a GitHub repo and push it up. 
