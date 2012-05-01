@@ -9,11 +9,14 @@ Skeletor is a cli tool for generating an opinionated blueprint for a Node.js mod
 * [GitHub][2] for source control
 * [Travis][3] for CI
 
-Skeltor will generate the following layout
+
+Run skeletor like this where [module\_name] is the name of your module.
 
 ``` bash
 skeletor [module_name]
 ```
+
+It will generate the following output.
 
 ```
 .
