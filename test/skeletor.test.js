@@ -4,7 +4,7 @@ var fs = require('fs');
 var path = require('path');
 var rimraf = require('rimraf');
 
-describe('Setting up Mocha', function(){
+describe('Running skeletor', function(){
 
   before(function(done){
     process.chdir('/tmp');
@@ -21,10 +21,6 @@ describe('Setting up Mocha', function(){
 
   it('should create a lib folder within the module', function(){
     assert.ok(path.existsSync('foobar/lib'));
-  });
-
-  it('should create a Makefile within the module', function(){
-    assert.ok(path.existsSync('foobar/Makefile'));
   });
 
   it('should create a package.json within the module', function(){
@@ -44,4 +40,5 @@ describe('Setting up Mocha', function(){
       done();
     })
   })
+
 }); 
