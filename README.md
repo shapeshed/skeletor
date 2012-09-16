@@ -25,7 +25,6 @@ It will generate the following output.
 ├── .gitignore
 ├── lib
 │   └── module_name.js
-├── Makefile
 ├── package.json
 ├── README.md
 ├── test
