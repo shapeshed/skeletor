@@ -12,27 +12,27 @@ describe('Running skeletor', function(){
   })
    
   it('should create a directory for the module', function(){
-    assert.ok(path.existsSync('foobar'));
+    assert.ok(fs.existsSync('foobar'));
   });
 
   it('should create a bin folder within the module', function(){
-    assert.ok(path.existsSync('foobar/bin'));
+    assert.ok(fs.existsSync('foobar/bin'));
   });
 
   it('should create a lib folder within the module', function(){
-    assert.ok(path.existsSync('foobar/lib'));
+    assert.ok(fs.existsSync('foobar/lib'));
   });
 
   it('should create a package.json within the module', function(){
-    assert.ok(path.existsSync('foobar/package.json'));
+    assert.ok(fs.existsSync('foobar/package.json'));
   });
 
   it('should create a README.md within the module', function(){
-    assert.ok(path.existsSync('foobar/README.md'));
+    assert.ok(fs.existsSync('foobar/README.md'));
   });
 
   it('should create a test folder within the module', function(){
-    assert.ok(path.existsSync('foobar/test'));
+    assert.ok(fs.existsSync('foobar/test'));
   });
 
   after(function(done){
